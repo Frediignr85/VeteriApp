@@ -56,10 +56,7 @@ class fragmento_inicio : Fragment() {
             var miPublicacion = listaDeAdaptadorDeArticulos[p0]
             if (miPublicacion.TextoPublicacion.equals("add"))
             {
-
                 return layoutInflater.inflate(R.layout.articulos,null)
-
-
             }
             else
             {
